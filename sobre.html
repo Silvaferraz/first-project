@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="col-12">
+            <nav class="navbar navbar-expand-md px-1">
+                <div class="container-fluid">
+                  <img class="navbar-brand logo" src="./imgs/logo.png"></img>
+                  <button class="navbar-toggler px-3 py-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 link_nav ps-3">
+                      <li class="nav-item link_unic">
+                        <a class="nav-link link" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item link_unic">
+                        <a class="nav-link link" href="servicos.html">Serviços</a>
+                      </li>
+                      <li class="nav-item dropdown link_unic">
+                        <a class="nav-link dropdown-toggle link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sobre
+                        </a>
+                        <ul class="dropdown-menu link_nav px-2">
+                          <li class="link_unic"><a class="dropdown-item bg-transparent link" href="how.html">Quem somos</a></li>
+                          <li class="link_unic"><a class="dropdown-item bg-transparent link" href="interation.html">Conteúdo</a></li>
+                          <li class="link_unic"><a class="dropdown-item bg-transparent link" href="sobre.html">Contato</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <div class="container-fluid form">
+      <div class="row">
+        <div class="col-12 text-center d-flex justify-content-center">
+          <img src="./imgs/logo.png" class="logo2">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <form action="php/enviar.php" method="post" class="text-center" enctype="multipart/form-data">
+            <label for="nome" class="fw-bold label">Nome</label>
+            <div class="mb-3">
+              <input id="nome" name="name" type="text" class="px-4 col-sm-12 col-md-8 col-lg-5 rounded-4 py-2" required autofocus>
+            </div>
+            <label for="email" class="fw-bold label">Email</label>
+            <div class="mb-3">
+              <input id="email" name="email" type="email" class="px-3 col-sm-12 col-md-8 col-lg-5 rounded-4 py-2" required>
+            </div>
+            <label for="telefone" class="fw-bold label">Telefone</label>
+            <div class="mb-3"> 
+              <input id="telefone" name="phone" type="tel" class="px-3 col-sm-12 col-md-8 col-lg-5 rounded-4 py-2" placeholder="Ex: xx xxxxx-xxxx">
+            </div>
+            <label for="msg" class="fw-bold label">Mensagem/Sugestão</label>
+            <div>
+              <textarea id="msg" name="msg" rows="4" cols="24" class="px-3 col-sm-12 col-md-8 col-lg-5 rounded-4 py-2 mb-3" required></textarea>
+            </div>
+            <input type="submit" value="Enviar" class="btn-instrutores px-5 rounded-3">
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer py-5 h-100">
+      <div class="container-fluid mx-0">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="row mb-3 d-flex justify-content-center">
+              <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center mt-5">
+                <a href="http://motrizacademia.com.br/" target="_blank"><img src="./imgs/rodapeimg.png" alt="rodape imagem" class="rodape"></a>
+              </div>
+            </div>
+            <div class="row d-flex justify-content-center text-center">
+              <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center text-center text-white">
+                <h5 class="fw-bold">Redes Sociais</h5>
+              </div>
+            </div>
+            <div class="row my-3 d-flex justify-content-center text-center">
+              <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center text-center text-white">
+                <a href="https://www.facebook.com/MotrizAcademia/?locale=pt_BR" target="_blank">
+                  <img src="./imgs/facebook.png" alt="" class="icone mx-3">
+                </a>
+                <a href="https://www.instagram.com/motrizacademia/" target="_blank">
+                  <img src="./imgs/instaicone.png" alt="" class="icone mx-3">
+                </a>
+                <a href="#">
+                  <img src="./imgs/twitter.png" alt="" class="icone twitter">
+                </a>
+              </div>
+            </div>
+            <div class="row text-white mx-0 mb-5 d-flex justify-content-center text-center">
+              <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center">
+                &copy; <i class="ms-1">2023 Todos direitos reservados</i>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+            <div class="row d-flex justify-content-center text-center mt-5 pt-4">
+              <h5 class="fw-bold text-white">Email para contato</h5>
+              <p class="fs-5 text-white Gmail"><a href="mailto:motrizacademia@gmail.com" class="text-white">motrizacademia@gmail.com</a></p>
+            </div>  
+            <div class="row d-flex justify-content-center">
+              <h5 class="fw-bold text-white">Telefone para contato</h5>
+              <p class="fs-5 text-white">(55) +55 99999-9999</p>
+            </div>
+            <div class="row d-flex justify-content-center">
+              <h5 class="fw-bold text-white">WhatsApp</h5>
+              <img src="./imgs/whats.png" alt="Imagem do whatsapp" class="whats">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

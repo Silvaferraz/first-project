@@ -1,0 +1,215 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    width: auto;
+    height: 120px;
+    transition: transform 1.5s ease-in-out;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: rotate(360deg)
+}
+.link_nav{
+    font-size: 22px;
+}
+.link_unic{
+    padding: 5px 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: black;
+    transition: 0.2s;
+}
+.link_unic:hover{
+    background: rgb(255, 0, 0);
+    transition: 0.8s ease;
+}
+.link{
+    color: black;
+}
+.link:hover{
+    color: white;
+}
+.navbar-toggler{
+    border: none;
+}
+.title{
+    font-style: italic;
+}
+.dois{
+    background-color: rgb(192, 2, 2);
+    padding: 20px;
+    margin-right: 50px;
+}
+.tres{
+    background-color: rgb(24, 23, 23);
+    padding: 20px;
+}
+.loja{
+    width: 100%;
+    max-height: 700px;
+}
+
+.box{
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+    padding-bottom: 40px;
+}
+.box:hover {
+    transform: translateY(90px);
+}
+.carousel-inner{
+    
+}
+.imagem{
+    width: 100%;
+    height: 86.4vh;
+}
+.card{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+.mais{
+    border: 1px solid darkgray;
+}
+.mais:hover{
+    background: rgb(2, 179, 2);
+    color: whitesmoke;
+}
+.menos{
+    border: 1px solid darkgray;
+}
+.menos:hover{
+    background: rgb(226, 1, 1);
+    color: white;
+}
+.footer{
+    background: darkslategray;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+    
+}
+.icone{
+    width: 40px;
+    height: 40px;
+}
+.twitter{
+    width: 50px;
+    height: 50px;
+    margin-top: -5px;
+}
+.icone{
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+.icone:hover{
+    transform: translateY(-15px);
+}
+.rodape{
+    height: 8vh;
+    transition: transform 0.5s ease;
+}
+.rodape:hover {
+    transform: scale(1.1);
+}
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-cardapio{
+    box-shadow: 5px 5px 10px black;
+    padding: 5px 20px;
+    font-weight: bold;
+    background: #055928;
+    color: white;
+}
+.btn-cardapio:hover{
+    box-shadow: 2px 2px 5px black;
+}
+.btn-instrutores{
+    box-shadow: 5px 5px 10px black;
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+    background: #DD2B12;
+    color: white;
+}
+.btn-instrutores:hover{
+    box-shadow: 2px 2px 5px black;
+}
+.batata{
+    border-radius: 50px;
+}
+.video{
+    background: #DD2B12;
+}
+.logo2{
+    width: auto;
+    height: 120px;
+}
+input{
+    border: 2px solid black;
+   text-align: center;
+   font-size: 18px;
+}
+textarea{
+    border: 2px solid black;
+    text-align: center;
+}
+.form{
+    height: 83vh;
+    margin-bottom: 90px;
+}
+.label{
+    font-style: italic;
+}
+.Inst{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.iframe{
+    border-radius: 40px;
+    box-shadow: 5px 5px 20px black;
+}
+.motriz{
+    color: white;
+    background: #DD2B12;
+    border-radius: 20px;
+    padding: 5px 0px;
+}
+.c4{
+    color: white;
+    background: #CF501D;
+    border-radius: 20px;
+    padding: 5px 0px;
+}
+.real{
+    color: white;
+    background: #055928;
+    border-radius: 20px;
+    padding: 5px 0px;
+}
+.promo{
+    border-radius: 10px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.promo:hover{
+    transform: scale(1.04);
+}
+a,.Gmail{
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: underline;
+}
+a,.Gmail:hover{
+    font-style: normal;
+    text-decoration: none;
+}
+.whats{
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+}
